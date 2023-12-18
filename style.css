@@ -1,0 +1,46 @@
+body {
+  font-family: VT323;
+  text-align: center;
+  background-color: #d90429;
+  color: white;
+}
+
+h2 {
+  margin: 2rem 0;
+  font-size: 3rem;
+}
+
+h1 {
+  margin: 2rem 0;
+  font-size: 4rem;
+  width:100dvw;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.btn {
+  color: #d90429;
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  font-size: 2rem;
+  background: #d5f2e3;
+}
+
+input {
+  height: 70px;
+  width: 50%;
+  border: 3px solid white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 2rem;
+  background: transparent;
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
